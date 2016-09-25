@@ -3,7 +3,28 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
+var content = {
+   title: 'Article One | Babu' ,
+   heading: 'Article One',
+   date: 'September 5, 2016',
+   content: 
+    `<p>
+            This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article 
+         </p>
+         <p>
+             
+            This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article 
+         </p>
+         <p>
+             
+            This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article 
+         </p>`
+          
+    
+};
+
 app.use(morgan('combined'));
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
