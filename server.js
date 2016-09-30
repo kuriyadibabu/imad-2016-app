@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne={
+var articleOne = {
     
  title: 'Article One | Babu',
  heading: 'Article 1',
@@ -80,9 +80,9 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+   // res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
     
-  //res.send(createTemplate('articleOne'));
+  res.send(createTemplate('articleOne'));
 });
 app.get('/article-Two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
