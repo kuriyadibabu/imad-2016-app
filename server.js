@@ -103,16 +103,16 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:articleName', function (req, res) {
+//app.get('/:articleName', function (req, res) {
     // articleNamee==articleOne
    // res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
-   var articleName = req.params.articleName;
-  res.send(createTemplate(articles[articleName]));
+ //  var articleName = req.params.articleName;
+  //res.send(createTemplate(articles[articleName]));
    // res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
 });
-//app.get('/article-Two', function (req, res) {
-//  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-//});
+app.get('/article-Two', function (req, res) {
+ res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
+});
 //app.get('/article-Three', function (req, res) {
  // res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 //});
