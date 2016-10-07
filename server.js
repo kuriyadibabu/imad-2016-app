@@ -102,7 +102,11 @@ app.get('/', function (req, res) {
     
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
+var counter = 0;
+app.get('/counter', function(req, res){
+    counter = cpounter + 1;
+    res.counter.tostring();
+});
 app.get('/:articleName', function (req, res) {
    // articleNamee==articleOne
    // res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
