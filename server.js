@@ -105,7 +105,7 @@ app.get('/', function (req, res) {
 var counter = 0;
 app.get('/counter', function(req, res){
     counter = cpounter + 1;
-    res.counter.tostring();
+    res.send(counter.tostring());
 });
 app.get('/:articleName', function (req, res) {
    // articleNamee==articleOne
