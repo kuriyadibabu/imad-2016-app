@@ -37,6 +37,8 @@ var articles = {
  date: 'September 5, 2016',
  content: `<p>
     Can I help you on 8th Standard Physics?
+    </p>
+        <p>
             This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article 
          </p>
          <p>
