@@ -10,7 +10,7 @@ var articles = {
  heading: 'Article 2',
  date: 'September 10, 2016',
  content: `<p>
-            This is the content for my Second article article 
+            Can I help you on 9th Standard MAthematics? 
          
          </p>`
         
