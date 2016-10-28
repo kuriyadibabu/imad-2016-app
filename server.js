@@ -10,7 +10,7 @@ var articles = {
  heading: 'Article 2',
  date: 'September 10, 2016',
  content: `<p>
-            Can I help you on 9th Standard MAthematics? 
+            Can I help you on 9th Standard Mathematics? 
          
          </p>`
         
@@ -36,6 +36,7 @@ var articles = {
  heading: 'Article 1',
  date: 'September 5, 2016',
  content: `<p>
+    Can I help you on 8th Standard Physics?
             This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article This is the content for my first article 
          </p>
          <p>
