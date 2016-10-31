@@ -111,7 +111,10 @@ app.get('/school', function (req, res) {
     
   res.sendFile(path.join(__dirname, 'ui', 'schoolkalolsavam.html'));
 });
-
+app.get('/arithmatics', function (req, res) {
+    
+  res.sendFile(path.join(__dirname, 'ui', 'arithmatic_en.html'));
+});
 
 
 
