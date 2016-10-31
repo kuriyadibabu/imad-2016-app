@@ -113,7 +113,7 @@ app.get('/school', function (req, res) {
 });
 app.get('/arithmatics', function (req, res) {
     
-  res.sendFile(path.join(__dirname, 'ui', 'arithmatic_en.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'arithmetic_en.html'));
 });
 
 
